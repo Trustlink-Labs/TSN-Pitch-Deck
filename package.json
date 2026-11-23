@@ -2,6 +2,6 @@
   "name": "tsn-pitch-deck",
   "private": true,
   "scripts": {
-    "push": "git add . && git commit -m \"Update pitch deck\" && git push origin main"
+    "push": "node ../scripts/repo-security.mjs commit-push-all pitch-deck origin main"
   }
 }
